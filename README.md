@@ -104,4 +104,4 @@ The benchmark simulates SeaweedFS volume compaction by:
 3. Copying only the live regions to a new file (compaction)
 4. Comparing performance between traditional I/O and sendfile() approaches
 
-This mirrors how SeaweedFS reclaims space by copying only active data blocks to new volumes during the compaction process.
+This mirrors how SeaweedFS can reclaim space by copying only active data blocks to new volumes during the compaction process.
